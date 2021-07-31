@@ -1,0 +1,41 @@
+footer {
+  border-top: 1px solid lightgray;
+  padding: 20px 0;
+  .container {
+    display: flex;
+    .ppolicy {
+      width: 80%;
+      a {
+        font-weight: 600;
+      }
+      span {
+        padding-left: 10px;
+      }
+    }
+    .socials {
+      width: 20%;
+      font-size: 24px;
+      flex-wrap: wrap;
+      i {
+        color: darkgrey;
+        width: 20%;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  footer {
+    .container {
+      display: inline-block;
+      text-align: center;
+      .ppolicy {
+        width: 100%;
+      }
+      .socials {
+        margin-top: 20px;
+        width: 50%;
+        display: inline-block;
+      }
+    }
+  }
+}

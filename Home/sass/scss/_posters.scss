@@ -1,0 +1,123 @@
+.posters {
+  padding: 0 80px 50px;
+  .container {
+    .last {
+      margin-left: 37px;
+    }
+    .poster1 {
+      border: 1px solid lightgray;
+      display: inline-block;
+      width: 31%;
+      border-top: none;
+      border-radius: 5px;
+      box-shadow: 1px 3px 10px lightgray;
+      padding-bottom: 20px;
+
+      h1 {
+        padding: 10px 20px;
+        font-size: 20px;
+        color: darken($color: black, $amount: 50);
+      }
+      p {
+        padding: 0 20px;
+        width: 92%;
+        font-size: 14px;
+        color: darken($color: skyblue, $amount: 50);
+      }
+      span {
+        display: inline-block;
+        margin-top: 20px;
+        color: darken($color: skyblue, $amount: 50);
+        padding: 0 20px;
+        font-size: 14px;
+        width: 60%;
+      }
+      a {
+        font-size: 14px;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 5px;
+        margin-top: 20px;
+        transition: 0.3s all;
+      }
+      a:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+@media (max-width: 1493px) {
+  .posters {
+    .container {
+      text-align: center;
+      .poster1 {
+        width: 46%;
+        img {
+          width: 100%;
+        }
+      }
+      .last {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .posters {
+    padding: 0 0 50px;
+    .container {
+      text-align: center;
+      .poster1 {
+        width: 47%;
+      }
+      .last {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .posters {
+    padding: 0 80px 50px;
+    .container {
+      text-align: center;
+      .poster1 {
+        width: 46%;
+      }
+      .last {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 770px) {
+  .posters {
+    padding: 0 0;
+    .container {
+      .poster1 {
+        width: 100%;
+
+        margin-right: 5px;
+      }
+      .last {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .posters {
+    padding: 0 0;
+    .container {
+      .poster1 {
+        width: 100%;
+      }
+      .last {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+  }
+}
